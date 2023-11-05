@@ -1,0 +1,59 @@
+/* 全域 border box */
+/* 星號 * 表示全部的HTML都可以吃到這個樣式 */
+/* ::before,::after是偽元素 */
+
+/* my reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Roboto", "Open Sans", sans-serif, sans-serif, "Sometype Mono",
+    monospace;
+}
+/*需link/import google font*/
+
+/* rwd img css reset */
+/* 防止產生X軸 */
+/*建議外容器尺寸 置中*/
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+img {
+  max-width: 100%;
+  /* (如果圖片不夠大張 無法撐滿容器就改用width:100%) */
+  height: auto;
+  /* (height: 100vh;如果佔滿整個視窗 可使用100vh) */
+  vertical-align: middle;
+  /* 防止照片下方有3px空白 */
+  object-fit: cover;
+  /* 做法：將img改成區塊元素 */
+  img {
+    display: block;
+  }
+  /*圖片可依造比例縮放*/
+}
+
+sub {
+  vertical-align: sub;
+}
+使用小字體在下方 a {
+  display: block;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+ul,
+li {
+  list-style: none;
+}
