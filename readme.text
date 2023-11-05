@@ -1,9 +1,59 @@
-這是一份有：
-meyerweb reset
-my reset
+Sorting and filtering data with Javascript
+Assignment Title: Use Javascript to sort and filter products in your product gallery
+Assignment Overview:
+● Using Javascript to manipulate data and the DOM
+● Using event listeners to react to user actions like clicking a button
+Learning Outcomes:
+● Gain proficiency in JavaScript array manipulation and sorting algorithms.
+● Develop skills in filtering and displaying specific data based on user input.
+● Understand how to update the DOM dynamically in response to user actions.
+Prerequisites-Resources:
+● Basic HTML and CSS concepts.
+● JavaScript fundamentals, including arrays, functions, and DOM manipulation.
 
-link:
-bs5
-google font
-fontawesome icon
-swiper
+Sorting and filtering data with Javascript
+Instructions:
+1. Create an array of objects that contains the products displayed on your gallery:
+2. Loop through your array to create the content of your page. For each item in
+the list:
+a. Create an element
+b. Attach any properties or attributes you wish to it
+c. Append any child elements you desire (make sure to create them first!)
+d. Set the text content!
+3. Add some buttons at the top to filter your items, for example, to show only
+dogs or cats.
+4. Add some buttons at the top to sort your items, for example by age, or by name
+(alphabetically).
+5. Implement your filtering function. Your function should take one
+argument/parameter which tells it what to filter by, so you can re-use the same
+function for all buttons.
+6. Repeat step 5 but for sorting
+
+Sorting and filtering data with Javascript
+Instructions:
+7. Attach your filtering function as an event handler for the “click” event to your
+filter buttons. Make sure to re-draw (re-render) the page content with the
+filtered list after filtering!
+8. Attach your sorting function as an event handler for the “click” event to your
+sort buttons. Make sure to re-render the page content with the sorted list after
+sorting!
+
+Sorting and filtering data with Javascript
+Useful links:
+Creating an element with JavaScript:
+https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement#basic
+_example
+Setting an element’s text content:
+https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent#examples
+Appending an element to another element (including the body!):
+https://developer.mozilla.org/en-US/docs/Web/API/Element/append#appending_a
+n_element
+Adding an event listener to an element:
+https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#
+add_a_simple_listener
+Sorting an array:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Object
+s/Array/toSorted
+Filtering an array:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Object
+s/Array/filter
