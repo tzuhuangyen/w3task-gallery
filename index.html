@@ -91,10 +91,17 @@
         <li><button data-btn="pork">Pork</button></li>
         <li><button data-btn="duck">Duck</button></li>
         <li><button data-btn="other">other</button></li>
-        <li><button data-btn="pre-Order">pre-order</button></li>
+        <li><button data-btn="pre-order">pre-order</button></li>
         <li><button data-btn="in stock">in stock</button></li>
         <li><button data-btn="customized">Customized</button></li>
         <li><button data-btn="allBtn" class="active">all</button></li>
+        <li>
+          <select id="sortSelect">
+            <option value="all" selected>sort</option>
+            <option value="increase">low to hight</option>
+            <option value="decrease">high to low</option>
+          </select>
+        </li>
       </ul>
 
       <div class="row" id="productList"></div>

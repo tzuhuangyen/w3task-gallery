@@ -123,11 +123,11 @@ const renderProducts = () => {
 renderProducts();
 
 const originalProducts = [...products]; // 复制原始产品列表
-// filter by order type
+// filter by  type
 filterBtn.forEach((button) => {
   button.addEventListener("click", (e) => {
     const type = e.target.dataset.btn;
-    // console.log(type);
+    console.log(type);
     productList.innerHTML = "";
 
     products.forEach((product) => {
@@ -138,6 +138,26 @@ filterBtn.forEach((button) => {
         const card = createProductCard(product);
         productList.appendChild(card);
       }
+      if (type === product.order) {
+        const card = createProductCard(product);
+        productList.appendChild(card);
+      }
     });
   });
+});
+
+//filter by price
+const sortSelect = document.querySelector("#sortSelect");
+sortSelect.addEventListener("change", (e) => {
+  const selectedValue = e.target.value;
+
+  if (selectedValue === "increase") {
+    // 按升序排序
+    products.sort((a, b) => a.price - b.price);
+  } else if (selectedValue === "decrease") {
+    // 按降序排序
+    products.sort((a, b) => b.price - a.price);
+  }
+
+  renderProducts(products);
 });
