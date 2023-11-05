@@ -6,7 +6,7 @@ const products = [
   {
     id: 1,
     name: "Pet Snack 1",
-    img_url: "../images/proddetail-1.jpg",
+    img_url: "src/images/proddetail-1.jpg",
     price: 10.99,
     type: "chicken",
     order: "pre-order",
@@ -14,7 +14,7 @@ const products = [
   {
     id: 2,
     name: "Pet Snack 2",
-    img_url: "../src/images/proddetail-2.jpg",
+    img_url: "src/images/proddetail-2.jpg",
     price: 12.99,
     type: "beef",
     order: "in stock",
@@ -22,7 +22,7 @@ const products = [
   {
     id: 3,
     name: "Pet Snack 3",
-    img_url: "../src/images/proddetail-3.png",
+    img_url: "src/images/proddetail-3.png",
     price: 8.49,
     type: "pork",
     order: "in stock",
@@ -30,7 +30,7 @@ const products = [
   {
     id: 4,
     name: "Pet Snack 4",
-    img_url: "../src/images/proddetail-4.jpg",
+    img_url: "src/images/proddetail-4.jpg",
     price: 15.99,
     type: "duck",
     order: "customized",
@@ -38,7 +38,7 @@ const products = [
   {
     id: 5,
     name: "Pet Snack 5",
-    img_url: "../src/images/proddetail-5.jpg",
+    img_url: "src/images/proddetail-5.jpg",
     price: 9.99,
     type: "chicken",
     order: "customized",
@@ -46,7 +46,7 @@ const products = [
   {
     id: 6,
     name: "Pet Snack 6",
-    img_url: "../src/images/proddetail-6.jpg",
+    img_url: "src/images/proddetail-6.jpg",
     price: 11.49,
     type: "beef",
 
@@ -55,7 +55,7 @@ const products = [
   {
     id: 7,
     name: "Pet Snack 7",
-    img_url: "../src/images/proddetail-7.jpg",
+    img_url: "src/images/proddetail-7.jpg",
     price: 13.99,
     type: "pork",
     order: "in stock",
@@ -63,7 +63,7 @@ const products = [
   {
     id: 8,
     name: "Pet Snack 8",
-    img_url: "../src/images/proddetail-8.jpg",
+    img_url: "src/images/proddetail-8.jpg",
     price: 14.49,
     type: "duck",
     order: "pre-order",
@@ -71,7 +71,7 @@ const products = [
   {
     id: 9,
     name: "Pet Snack 9",
-    img_url: "../src/images/proddetail-9.jpg",
+    img_url: "src/images/proddetail-9.jpg",
     price: 7.99,
     type: "chicken",
     order: "pre-order",
@@ -79,7 +79,7 @@ const products = [
   {
     id: 10,
     name: "Pet Snack 10",
-    img_url: "../src/images/proddetail-10.jpg",
+    img_url: "src/images/proddetail-10.jpg",
     price: 16.99,
     type: "other",
     order: "customized",
