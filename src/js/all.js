@@ -71,7 +71,7 @@ const products = [
   {
     id: 9,
     name: "Pet Snack 9",
-    img_url: "../../src/images/proddetail-9.jpg",
+    img_url: "../src/images/proddetail-9.jpg",
     price: 7.99,
     type: "chicken",
     order: "pre-order",
